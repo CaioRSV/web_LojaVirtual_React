@@ -1,0 +1,79 @@
+img{
+  width: 420px;
+}
+
+
+.carrinho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carrinho{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+
+  .carrinhoItem:hover{
+    box-shadow: 0 4px 8px 0 rgba(160, 160, 160, 0.353), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+  }
+  
+  .itensCarrinho {
+    width: 700px;
+    height: 250px;
+    display: flex;
+  
+    align-items: center;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+  
+  .itensCarrinho img {
+    width: 200px;
+  }
+  
+  .itensCarrinho .desc {
+    width: 100%;
+    font-size: 30px;
+  }
+  
+  .countHandler input {
+    font-size: 15px;
+    color:orange;
+    background-color: rgba(0, 0, 0, 0.348);
+    width: 40px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .countHandler button{
+    font-size: 15px;
+    background-color:black;
+    color:orange;
+    
+  }
+
+  .countHandler button:hover{
+    background-color:rgba(0, 0, 0, 0.549);
+    color:rgb(252, 252, 252);
+  }
+  
+  .checkout button {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .checkout button:hover{
+    color: orange;
+    transition: 0.3s;
+  }
+  

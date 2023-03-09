@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(46, 46, 46);
+    color: orange;
+
+    min-height: 100vh;
+
+    background-color: #2E2E2E;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #2e2e2e 5px ), repeating-linear-gradient( #00000055, #000000 );
+
+}
+
+.shopTitle {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.produtos{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.produto {
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.produto img{
+    width: 280px;
+}
+
+.produto .desc{
+    text-align: center;
+}
+
+.produto:hover{
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.addBut_Carrinho{
+    background-color: transparent;
+    border: 2px solid rgb(211, 209, 207);
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    color:white;
+    font-size: 18px;
+}
+
+.addBut_Carrinho:hover{
+    background-color:rgba(255, 123, 0, 0.375);
+    color: orange;
+    cursor: pointer;
+    transition: 0.3s;
+}
